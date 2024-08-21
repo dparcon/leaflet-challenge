@@ -8,3 +8,35 @@ body,
 html {
   height: 100%;
 }
+
+.legend {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.legend-item {
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+
+.legend-text {
+  display: inline-block;
+}
